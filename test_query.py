@@ -6,6 +6,7 @@ Usage: python test_query.py "how do I play the jackpot?"
 """
 
 import sys
+import os
 import voyageai
 from fastembed import SparseTextEmbedding
 from qdrant_client import QdrantClient

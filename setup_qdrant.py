@@ -5,6 +5,7 @@ Run this ONCE before indexing.
 Usage: python setup_qdrant.py
 """
 
+import os
 from qdrant_client import QdrantClient
 from qdrant_client.models import (
     VectorParams, SparseVectorParams, Distance, SparseIndexParams

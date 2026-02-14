@@ -14,6 +14,7 @@ For 45 articles (~500 chunks), this takes roughly 2-5 minutes.
 """
 
 import sys
+import os
 import time
 import voyageai
 from fastembed import SparseTextEmbedding
